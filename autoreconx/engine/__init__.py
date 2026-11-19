@@ -9,6 +9,12 @@ from autoreconx.engine.classification import (
     classify_finding,
 )
 
+from autoreconx.engine.risk import (
+    RiskAssessment,
+    RiskLevel,
+    calculate_risk_score,
+)
+
 __all__ = [
     "AssessmentEngineError",
     "assess_nmap_results",

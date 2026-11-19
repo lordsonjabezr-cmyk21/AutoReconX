@@ -1,0 +1,11 @@
+project:
+  name: AutoReconX
+  version: "0.1.0"
+
+security:
+  require_authorization: true
+
+approved_scope:
+  hosts:
+    - "127.0.0.1"
+    - "localhost"
